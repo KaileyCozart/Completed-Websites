@@ -12,6 +12,6 @@ CS-171 Reflection 1 Website - October, 2017
 
 Portfolio Website (My First Website) - http://chstechclass.com/kcozart/Final%20Project/
 
-Star Wars Website - http://chstechclass.com/kcozart/Star%20Wars%20Website/
+Star Wars Website - http://www.chstechclass.com/kcozart/Star-Wars-Website-2016/
 
 CS-171 Reflection 1 Website - http://www.chstechclass.com/kcozart/REFLECTION1/
