@@ -1,0 +1,97 @@
+/* Applies to All Pages */
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    height: calc(100% - 55px);
+    height: -moz-calc(100% - 55px);
+    height: -webkit-calc(100% - 55px);
+    height: -o-calc(100% - 55px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navbar {
+    background-color: black;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+}
+
+a {
+    color: white;
+}
+
+.navbarButton {
+    background-color: black;
+    height: 55px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.firstButton {
+    padding-right: 25px;
+}
+
+.secondButton {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.thirdButton {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.fourthButton {
+    padding-left: 25px;
+}
+
+/* Applies to index.html */
+
+.indexHero {
+    background-image: url("images/cooking7.jpg"); /* D 7, L 12 */
+}
+
+.flavorLogo {
+    width: 40%;
+    margin-right: 30%;
+    margin-left: 30%;  /* 205px, 40% */
+    margin-top: 225px; /* 235px, 30% */
+}
+
+.flavorLogoBlack {
+    margin-top: 325px;
+    width: 30%;
+    margin-left: 60%;
+    margin-right: 10%;
+}
+
+/* Applies to screenshots.html */
+
+.screenshotsHero {
+    background-image: url("images/cooking7.jpg"); /* D 7, L 12 */
+}
+
+/* Applies to details.html */
+
+.detailsHero {
+    background-image: url("images/cooking19.jpg"); /* D 7, L 12 */
+}
+
+/* Applies to team.html */
+
+.teamHero {
+    background-image: url("images/cooking12.jpg"); /* D 7, L 12 */
+}
