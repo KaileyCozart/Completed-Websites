@@ -1,8 +1,9 @@
-/* Applies to All Pages */
+/* General CSS */
 
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .hero {
@@ -15,6 +16,8 @@ body {
     background-position: center center;
 }
 
+/* Navbar */
+
 .navbar {
     background-color: black;
     height: 55px;
@@ -24,7 +27,6 @@ body {
 }
 
 ul {
-    text-align: center;
     list-style: none;
 }
 
@@ -37,7 +39,6 @@ a {
     height: 55px;
     font-size: 20px;
     display: inline-block;
-    text-align: center;
 }
 
 .firstButton {
@@ -58,17 +59,32 @@ a {
     padding-left: 25px;
 }
 
-/* Applies to index.html */
+/* Multiple Pages */
+
+.detailsDiv, .screenshotsDiv, .teamDiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 25em;
+    margin-left: -15em;
+    margin-top: -12.5em;
+    background-color: rgba(255, 255, 255, 0.50);
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+/* Index */
 
 .indexHero {
-    background-image: url("images/cooking7.jpg"); /* D 7, L 12 */
+    background-image: url("images/cooking7.jpg");
 }
 
 .flavorLogo {
     width: 40%;
     margin-right: 30%;
-    margin-left: 30%;  /* 205px, 40% */
-    margin-top: 225px; /* 235px, 30% */
+    margin-left: 30%;
+    margin-top: 225px;
 }
 
 .flavorLogoBlack {
@@ -78,20 +94,62 @@ a {
     margin-right: 10%;
 }
 
-/* Applies to screenshots.html */
-
-.screenshotsHero {
-    background-image: url("images/cooking7.jpg"); /* D 7, L 12 */
-}
-
-/* Applies to details.html */
+/* Details */
 
 .detailsHero {
-    background-image: url("images/cooking19.jpg"); /* D 7, L 12 */
+    background-image: url("images/cooking7.jpg");
 }
 
-/* Applies to team.html */
+/* Screenshots */
+
+.screenshotsHero {
+    background-image: url("images/cooking7.jpg");
+}
+
+/* Team */
 
 .teamHero {
-    background-image: url("images/cooking12.jpg"); /* D 7, L 12 */
+    background-image: url("images/cooking12.jpg");
+}
+
+.teamDiv {
+    background-color: transparent;
+    width: 90em;
+    margin-left: -45em;
+    border: 0px;
+}
+
+.memberOne, .memberTwo {
+    background-color: rgba(255, 255, 255, 0.50);
+    height: 100%;
+    width: 20%;
+    float: left;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.memberOne {
+    margin-left: calc(30% - 25px);
+}
+
+.memberTwo {
+    margin-left: 25px;
+}
+
+.avatar {
+    width: 40%;
+    padding-top: 40%;
+    margin-top: 20px;
+    margin-left: 30%;
+    border-radius: 100%;
+}
+
+.avatarOne {
+    background-color: white;
+}
+
+.avatarTwo {
+    background: url('images/kk.jpeg');
+    background-size: cover;
+    background-position-y: -3px;
 }
