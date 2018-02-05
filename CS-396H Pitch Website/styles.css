@@ -51,6 +51,7 @@ a {
 }
 
 .firstButton {
+    margin-left: -55px;
     padding-right: 25px;
 }
 
@@ -81,6 +82,15 @@ a {
     background-color: rgba(255, 255, 255, 0.50);
     border-radius: 5px;
     border: 1px solid white;
+}
+
+#fade {
+    opacity: 0;
+}
+
+#fade.appear {
+    opacity: 1;
+    transition: opacity 3s;
 }
 
 /* Index */
@@ -143,7 +153,7 @@ a {
 }
 
 .memberOne {
-    margin-left: calc(30% - 25px);
+    margin-left: calc(30% - 12.5px);
 }
 
 .memberTwo {
