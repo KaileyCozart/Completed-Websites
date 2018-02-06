@@ -1,18 +1,23 @@
 window.onload = function() {
+
+    // Fade-in Divs
+
     document.getElementById("fade").className += " appear";
-};
 
-var imgArray = new Array();
+    // User Iterates Through Screenshots
 
-imgArray[0] = new Image();
-imgArray[0].src = 'images/cooking7.jpg';
+    var button = document.getElementById("screenshotsButton");
+    var currentScreenshot = document.getElementById("fade");
 
-imgArray[1] = new Image();
-imgArray[1].src = 'images/cooking12.jpg';
-
-function arrayFunction() {
-    var newGallery = document.getElementsByClassName("screenshotsDiv").backgroundImage = imgArray.src;
-    for (i = 0; i < imgArray.length; i++) {
-        newGallery.appendChild(imgArray[i]);
+    button.onclick = function() {
+        if (currentScreenshot.classList.contains("s1")) {
+            currentScreenshot.className = "screenshotsDiv appear s2";
+        }
+        else if (currentScreenshot.classList.contains("s2")) {
+            currentScreenshot.className = "screenshotsDiv appear s3";
+        }
+        else if (currentScreenshot.classList.contains("s3")) {
+            currentScreenshot.className = "screenshotsDiv appear s1";
+        }
     }
 };

@@ -130,6 +130,39 @@ a {
     background-image: url("images/cooking7.jpg");
 }
 
+#screenshotsButton {
+    width: 50px;
+    height: 50px;
+    margin: 15px 15px 0px 0px;
+    float: right;
+    border-radius: 100%;
+    outline: 0px;
+    font-weight: bold;
+    color: #2A2929;
+    box-shadow: 0 0 10px #fff;
+    border-color: white;
+}
+
+#screenshotsButton:active {
+    border-color: #2A2929;
+}
+
+.s1, .s2, .s3 {
+    background-size: cover;
+}
+
+.s1 {
+    background-image: url("images/home.jpg");
+}
+
+.s2 {
+    background-image: url("images/addedit.jpg");
+}
+
+.s3 {
+    background-image: url("images/search.jpg");
+}
+
 /* Team */
 
 .teamHero {
