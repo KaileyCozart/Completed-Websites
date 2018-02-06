@@ -169,7 +169,9 @@ a {
 }
 
 .avatarOne {
-    background-color: white;
+    background: url('images/kl.jpg');
+    background-size: cover;
+    background-position-x: -13px;
 }
 
 .avatarTwo {
