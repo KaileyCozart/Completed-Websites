@@ -50,6 +50,10 @@ a {
     display: inline-block;
 }
 
+.navbarButton:hover {
+    text-shadow: 0 0 10px #fff;
+}
+
 .firstButton {
     margin-left: -55px;
     padding-right: 25px;
@@ -75,10 +79,10 @@ a {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 30em;
-    height: 25em;
-    margin-left: -15em;
-    margin-top: -12.5em;
+    width: 40em;
+    margin-left: -20em;
+    height: 30em;
+    margin-top: -15.5em;
     background-color: rgba(255, 255, 255, 0.50);
     border-radius: 5px;
     border: 1px solid white;
@@ -91,6 +95,10 @@ a {
 #fade.appear {
     opacity: 1;
     transition: opacity 3s;
+}
+
+.boxShadow:hover {
+    box-shadow: 0 0 10px #fff;
 }
 
 /* Index */
@@ -120,7 +128,7 @@ a {
 }
 
 .detailsLogo {
-    margin-top: 10px;
+    margin-top: 27px;
     width: 40%;
 }
 
@@ -139,12 +147,12 @@ a {
     outline: 0px;
     font-weight: bold;
     color: #2A2929;
-    box-shadow: 0 0 10px #fff;
     border-color: white;
 }
 
 #screenshotsButton:active {
-    border-color: #2A2929;
+    border: 0px solid white;
+    box-shadow: 0 0 10px #fff;
 }
 
 .s1, .s2, .s3 {
@@ -196,7 +204,7 @@ a {
 .avatar {
     width: 40%;
     padding-top: 40%;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 30%;
     border-radius: 100%;
 }
